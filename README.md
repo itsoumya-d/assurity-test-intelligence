@@ -37,6 +37,8 @@ across all recorded runs. Skipped tests are excluded from pass rate.
 | POST | `/api/results` | Record a test result |
 | GET | `/api/results` | List results |
 | GET | `/api/summary` | Pass rate, p95, flakes, risk and gate |
+| POST | `/api/triage/classify` | Classify execution failure into root cause hypothesis & blast radius |
+| POST | `/api/triage/batch` | Aggregate batch failure traces into categorized triage defect cards |
 | GET | `/` | Release Test Intelligence dashboard |
 
 ## Run
